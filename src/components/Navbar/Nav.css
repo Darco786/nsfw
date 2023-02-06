@@ -1,10 +1,16 @@
 nav {
   background: var(--prime-color-black) !important;
   padding-top: 15px !important;
-  padding-bottom: 10px !important;
+  padding-bottom: 20px !important;
 }
 .nav-link {
   color: var(--ns-white-color) !important;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500 !important;
+font-size: 12px !important;
+line-height: 18px !important;
+
 }
 .nav-link:focus,
 .nav-link:hover {

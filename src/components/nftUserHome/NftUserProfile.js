@@ -1,5 +1,6 @@
 import React from "react";
 import User_Img from'../../assets/user.png'
+import Verify_img from '../../assets/verify.svg'
 
 function NftUserProfile() {
   return (
@@ -15,7 +16,8 @@ function NftUserProfile() {
                 <img src={User_Img} alt="" className="profile-img" />
               </div>
               <div className="d-flex">
-                <h2>User_name</h2>
+                <h2>Mahsa_Collection </h2> 
+                <img src={Verify_img} alt=""/>
               </div>
               <p>
                 Lorem ipsum dolor sit amet consectetur. Risus ut id velit
