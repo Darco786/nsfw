@@ -1,44 +1,78 @@
-.user_head_banner{
-    background-image: url('../../assets/banner.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 290px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+.user_head_banner {
+  background-image: url("../../assets/banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 290px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
-.edit-box{
-    display: flex;
-    float: right;
-    position: relative;
-    top: 89%;
-    right: 8%;
+.edit-box {
+  display: flex;
+  float: right;
+  position: relative;
+  top: 89%;
+  right: 8%;
 }
-.btn-edit{
-background: rgba(255, 255, 255, 0.04);
-border: 1px solid rgba(255, 255, 255, 0.38);
-backdrop-filter: blur(16px);
-padding: 6px 40px;
-border-radius: 11px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
+.btn-edit {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  backdrop-filter: blur(16px);
+  padding: 6px 40px;
+  border-radius: 11px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
+}
+.profile-img {
+  width: auto;
+  height: 120px;
+  border: 4px solid #fff;
+  border-radius: 120px;
+}
+.profile-box {
+  position: relative;
+  bottom: 23%;
+}
+.user_name h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
 
+  text-align: center;
+
+  color: #ffffff;
 }
-.profile-img{
-    width: auto;
-    height: 120px;
-    border: 4px solid #fff;
-    border-radius: 120px;
+.user_name {
+  gap: 8px;
+  align-items: center;
+  margin-top: 20px;
 }
-.profile-box{
-position: relative;
-bottom: 23%;
+.verify-img {
+  height: 20px;
+  margin-bottom: 7px;
+}
+
+.user_details {
+  margin-top: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  padding-right: 26%;
+  color: #ffffff;
+}
+.social-share a{
+    
 }
