@@ -2,10 +2,32 @@
     display: grid;
     grid-template-columns: repeat(4,auto);
     gap: 2rem;
+    color: #fff;
 }
 
 
 .nft-con-sec{
     padding-top: 60px;
     padding-bottom: 30px;
+}
+.nft-card-box{
+    background: #1F1E26;
+    border-radius: 28px;
+    padding: 6%;
+}
+.card-img{
+    height: auto;
+    width: 260px !important;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    align-items: center;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    align-items: center;
 }
