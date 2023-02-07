@@ -35,7 +35,7 @@ function NftUserProfile() {
                         <a href="/"><BsGlobe/></a>
                         <a href="/"><AiFillInstagram/> </a>
                         <a href="/"><BsTwitter/> </a>
-                        <a href="/"><AiFillInstagram/> </a>
+                        <span href="/" style={{color:'GrayText',fontSize:'30px'}} > | </span>
                         <a href="/"><AiOutlineStar/> </a>
                         <a href="/"><BsFillShareFill/> </a>
 
@@ -45,6 +45,24 @@ function NftUserProfile() {
                         
                     </div>
                     
+                </div>
+
+                <div className="follow-box">
+                  <div className="collect">
+                    <span>Collectors</span>
+                    <h2>159</h2>
+                  </div>
+
+                  <div className="following">
+                  <span>Following</span>
+                    <h2>159</h2>
+                  </div>
+
+                  <div className="followers">
+                  <span>Followers</span>
+                    <h2>178</h2>
+                  </div>
+
                 </div>
             </div>
           </div>
