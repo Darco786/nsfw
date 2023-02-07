@@ -5,9 +5,16 @@ function NftBoxPage() {
   return (
     <>
     <NftSearch/>
-      <section>
+    <section>
+        <div className='container'>
+            <div className='nft-grid'>
+                
+
+            </div>
+
+        </div>
         
-        NftBoxPage</section>
+    </section>
     </>
   
   )
