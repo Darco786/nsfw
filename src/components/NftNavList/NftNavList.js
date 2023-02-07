@@ -7,11 +7,11 @@ function NftNavList() {
             <div className='user-menu'>
                 <ul>
                     <li><a href="/" className='nav-user-link nav-user-link-active'>All Creations</a></li>
-                    <li><a href="/" className='nav-user-link nav-user-link-active'>Lists</a></li>
-                    <li><a href="/" className='nav-user-link nav-user-link-active'>Likes</a></li>
-                    <li><a href="/" className='nav-user-link nav-user-link-active'>Bookmarks</a></li>
-                    <li><a href="/" className='nav-user-link nav-user-link-active'>Public</a></li>
-                    <li><a href="/" className='nav-user-link nav-user-link-active'>Private</a></li>
+                    <li><a href="/" className='nav-user-link '>Lists</a></li>
+                    <li><a href="/" className='nav-user-link '>Likes</a></li>
+                    <li><a href="/" className='nav-user-link '>Bookmarks</a></li>
+                    <li><a href="/" className='nav-user-link '>Public</a></li>
+                    <li><a href="/" className='nav-user-link '>Private</a></li>
                 </ul>
                 
             </div>
