@@ -1,10 +1,14 @@
 import React from 'react'
+import Logo from '../../assets/footLogo.png'
+import './Footer.css'
+
+import {BsFacebook,BsTwitter} from 'react-icons/bs'
 
 function Footer() {
   return (
     <>
-    <div className=''>
-
+    <div className='foot-img-logo'>
+        <img src={Logo} alt="Foot"/>
     </div>
     <footer>
         <div className='container'>
@@ -18,12 +22,17 @@ function Footer() {
                         <a href="/">HOME</a>
                         <a href="/">MARKETPLACE</a>
                         <a href="/">GENERATE</a>
-
                     </div>
 
                 </div>
                 <div className='foot-icon'>
+                    <a href="/"><BsFacebook/></a>
+                    <a href="/"><BsTwitter/></a>
+                    <a href="/"><BsFacebook/></a>
+                    <a href="/"><BsFacebook/></a>
+                    
 
+                    
                 </div>
 
             </div>
