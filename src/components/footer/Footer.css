@@ -46,3 +46,12 @@ color: #FFFFFF;
     display: flex;
     gap: 2rem;
 }
+
+.foot-icon {
+    display: flex;
+    gap: 2rem;
+}
+.foot-icon a{
+    font-size: 20px;
+    color: #fff;
+}

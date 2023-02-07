@@ -2,7 +2,8 @@ import React from 'react'
 import Logo from '../../assets/footLogo.png'
 import './Footer.css'
 
-import {BsFacebook,BsTwitter} from 'react-icons/bs'
+import {BsFacebook,BsTwitter,BsDiscord} from 'react-icons/bs'
+import {AiFillInstagram} from 'react-icons/ai'
 
 function Footer() {
   return (
@@ -28,8 +29,8 @@ function Footer() {
                 <div className='foot-icon'>
                     <a href="/"><BsFacebook/></a>
                     <a href="/"><BsTwitter/></a>
-                    <a href="/"><BsFacebook/></a>
-                    <a href="/"><BsFacebook/></a>
+                    <a href="/"><BsDiscord/></a>
+                    <a href="/"><AiFillInstagram/></a>
                     
 
                     
