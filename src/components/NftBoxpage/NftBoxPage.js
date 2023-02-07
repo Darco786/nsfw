@@ -3,6 +3,14 @@ import NftSearch from "../NftSearch/NftSearch";
 import { BsThreeDots } from "react-icons/bs";
 import { FaEthereum } from "react-icons/fa";
 import Nft1 from "../../assets/nfts/nft2.png";
+import Nft2 from "../../assets/nfts/nft1.png";
+import Nft3 from "../../assets/nfts/nft3.png";
+import Nft4 from "../../assets/nfts/nft4.png";
+import Nft5 from "../../assets/nfts/nft5.png";
+import Nft6 from "../../assets/nfts/nft6.png";
+import Nft7 from "../../assets/nfts/nft7.png";
+import Nft8 from "../../assets/nfts/nft8.png";
+
 import "./NftCard.css";
 
 function NftBoxPage() {
@@ -38,7 +46,7 @@ function NftBoxPage() {
 
          {/* card-1 start */}
          <div className="nft-card-box">
-              <img src={Nft1} alt=""  className="card-img"/>
+              <img src={Nft2} alt=""  className="card-img"/>
               <div className="title">
                 <h2>Purples</h2>
                 <span>
@@ -64,7 +72,7 @@ function NftBoxPage() {
 
          {/* card-1 start */}
          <div className="nft-card-box">
-              <img src={Nft1} alt=""  className="card-img"/>
+              <img src={Nft3} alt=""  className="card-img"/>
               <div className="title">
                 <h2>Purples</h2>
                 <span>
@@ -90,7 +98,7 @@ function NftBoxPage() {
 
          {/* card-1 start */}
          <div className="nft-card-box">
-              <img src={Nft1} alt=""  className="card-img"/>
+              <img src={Nft4} alt=""  className="card-img"/>
               <div className="title">
                 <h2>Purples</h2>
                 <span>
@@ -116,7 +124,7 @@ function NftBoxPage() {
 
          {/* card-1 start */}
          <div className="nft-card-box">
-              <img src={Nft1} alt=""  className="card-img"/>
+              <img src={Nft5} alt=""  className="card-img"/>
               <div className="title">
                 <h2>Purples</h2>
                 <span>
@@ -141,7 +149,7 @@ function NftBoxPage() {
 
          {/* card-1 start */}
          <div className="nft-card-box">
-              <img src={Nft1} alt=""  className="card-img"/>
+              <img src={Nft6} alt=""  className="card-img"/>
               <div className="title">
                 <h2>Purples</h2>
                 <span>
@@ -166,7 +174,7 @@ function NftBoxPage() {
 
          {/* card-1 start */}
          <div className="nft-card-box">
-              <img src={Nft1} alt=""  className="card-img"/>
+              <img src={Nft7} alt=""  className="card-img"/>
               <div className="title">
                 <h2>Purples</h2>
                 <span>
@@ -191,7 +199,7 @@ function NftBoxPage() {
 
          {/* card-1 start */}
          <div className="nft-card-box">
-              <img src={Nft1} alt=""  className="card-img"/>
+              <img src={Nft8} alt=""  className="card-img"/>
               <div className="title">
                 <h2>Purples</h2>
                 <span>
