@@ -1,9 +1,8 @@
-.user-menu-section{
-    padding-top: 20px;
-    padding-bottom: 0px;
-    border-bottom: 1px solid;
+.user-menu-section {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid;
 }
-
 
 .user-menu ul li {
   list-style: none;
@@ -37,4 +36,20 @@
   text-align: center;
 
   color: rgba(255, 255, 255, 0.51);
+}
+
+@media (max-width: 768px) {
+  .user-menu ul {
+    display: flex;
+    gap: 11px;
+  }
+  .user-menu ul li .nav-user-link-active {
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .nav-user-link {
+    font-weight: 400;
+    font-size: 13px;
+  }
 }

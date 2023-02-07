@@ -73,23 +73,22 @@
   padding-right: 26%;
   color: #ffffff;
 }
-.social-share a{
+.social-share a {
   color: #fff;
   font-size: 18px;
 }
 
-.social-share a:hover{
-  color: #1e50ff;;
-  
+.social-share a:hover {
+  color: #1e50ff;
 }
-.social-share{
+.social-share {
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
   gap: 40px;
   align-items: center;
 }
 
-.follow-box{
+.follow-box {
   display: flex;
 
   align-items: center;
@@ -97,93 +96,112 @@
   gap: 4rem;
   margin-top: 70px;
   position: relative;
- 
+
   float: right;
 }
 
-.collect,.following{
-  border-right: 1px solid rgba(255, 255, 255, 0.32); 
+.collect,
+.following {
+  border-right: 1px solid rgba(255, 255, 255, 0.32);
   width: 150px;
   padding: 0px;
   align-items: center;
   text-align: center;
 }
-.collect{
-  border-right: 1px solid rgba(255, 255, 255, 0.32); 
+.collect {
+  border-right: 1px solid rgba(255, 255, 255, 0.32);
   width: 150px;
   padding: 0px;
   align-items: center;
   text-align: center;
 }
 .followers {
-text-align: center;
+  text-align: center;
 }
-.following span{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height */
-
-
-color: rgba(255, 255, 255, 0.51);
-}
-.collect span{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height */
-
-
-color: rgba(255, 255, 255, 0.51);
-}
-.followers span{
-  font-family: 'Poppins';
+.following span {
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
   /* identical to box height */
 
-  
+  color: rgba(255, 255, 255, 0.51);
+}
+.collect span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.51);
+}
+.followers span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
   color: rgba(255, 255, 255, 0.51);
 }
 
-.following h2{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 30px;
-/* identical to box height */
+.following h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
 
-
-
-color: #FFFFFF;
+  color: #ffffff;
 }
-.collect h2{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 30px;
-/* identical to box height */
+.collect h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
 
-
-
-color: #FFFFFF;
+  color: #ffffff;
 }
-.followers h2{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 30px;
-/* identical to box height */
+.followers h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
 
+  color: #ffffff;
+}
 
-color: #FFFFFF;
+@media (max-width: 768px) {
+  .share-box {
+    margin-top: -76px;
+  }
+  .social-share {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+  .user_details {
+    padding-right: 0px;
+  }
+  .follow-box {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    gap: 1rem;
+    margin-top: 16px;
+  }
+  .social-share a {
+    color: #fff;
+    font-size: 30px;
+  }
 }
