@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/footer/Footer'
 import Navbar from '../components/Navbar/Navbar'
 import NftBoxPage from '../components/NftBoxpage/NftBoxPage'
 import NftNavList from '../components/NftNavList/NftNavList'
@@ -11,6 +12,7 @@ function Home() {
     <NftUserHome/>
     <NftNavList/>
     <NftBoxPage/>
+    <Footer/>
     </>
   )
 }
