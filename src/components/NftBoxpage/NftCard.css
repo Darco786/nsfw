@@ -25,9 +25,49 @@
     margin-top: 5px;
     align-items: center;
 }
+.title h2{
+    font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+}
+.title span{
+    cursor: pointer;
+    font-size: 20px;
+}
 .price{
     display: flex;
     justify-content: space-between;
     margin-top: 5px;
     align-items: center;
+}
+.price h2{
+    font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #1E50FF;
+}
+
+.nft-username{
+    font-weight: 400;
+    font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.54);
+}
+.btn-nft-buy{
+    background: #1E50FF;
+border-radius: 17px;
+width: 100%;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
 }
